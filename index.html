@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <meta name="description" content="Página de artigos da Luísa">
+  <meta name="author" content="Luísa Verza">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Luísa Verza</title>
+</head>
+<body>
+    <header>
+      <div class="menu">
+        <nav>
+            <button class="hamburger"><i class="fa fa-bars" aria-hidden="true"></i></button>
+            <button class="cross"><i class="fa fa-times" aria-hidden="true"></i></button>  
+        </nav>
+        <h1>Articles Page</h1>
+      </div>
+      <div class="menu-list">  
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="article.html#archives">Archives</a></li>
+          <li><a href="article.html#categories">Categories</a></li>
+        </ul>
+      </div>
+    </header>
+    <div id="main">  
+      <article>
+        <section>
+          <a href="article.html#article1" name="article1"><h2>Article 1</h2></a>
+          <small>Published on month/year | Category: Category 1</small>
+          <p>Donec a lorem nulla. In hac habitasse platea dictumst. Nullam dictum sapien et mauris sollicitudin pretium. Sed facilisis arcu commodo diam dapibus varius. Integer sit amet est ac ipsum faucibus sagittis in sit amet elit. Aenean magna ligula, mollis in nibh eget, scelerisque elementum nisi. Curabitur porttitor ex non mollis fermentum.</p>
+          <a href="article.html#article1"><small>more...</small></a>
+        </section>
+        <section>
+          <a href="article.html#article2" name="article2"><h2>Article 2</h2></a>
+          <small>Published on month/year | Category: Category 2</small>
+          <p>Maecenas luctus auctor blandit. Suspendisse augue leo, vulputate et venenatis aliquet, euismod ac nisi. Etiam fermentum nec ipsum ac porttitor. Sed egestas nulla ac leo porttitor commodo. Mauris rhoncus eros a vehicula convallis. Integer sit amet fringilla nulla. Suspendisse potenti. Phasellus sollicitudin quis purus eu placerat.</p>
+          <a href="article.html#article2"><small>more...</small></a>
+        </section>
+        <section>
+          <a href="article.html#article3" name="article3"><h2>Article 3</h2></a>
+          <small>Published on month/year | Category: Category 3</small>
+          <p>Duis accumsan lorem posuere, dictum leo a, blandit est. Suspendisse potenti. Mauris scelerisque nec ex viverra efficitur. Ut sed mauris enim. Integer et hendrerit dolor. Morbi eu vestibulum justo. Morbi consectetur pellentesque dolor id commodo.</p>
+          <a href="article.html#article3"><small>more...</small></a>
+        </section>
+      </article>
+      <aside>
+        <form action="article.html#search">
+          <label class="label-search" for="search">
+            <small class="hidden">Searching area</small>
+            <i class="fa fa-search search-icon" aria-hidden="true"></i>
+            <input type="text" name="search" id="search" placeholder="Search...">
+          </label>      
+        </form>
+        <h3>Recent Posts</h3>
+          <ul class="aside-list">
+            <li><a href="#article1">Article 1</a></li>
+            <li><a href="#article2">Article 2</a></li>
+            <li><a href="#article3">Article 3</a></li>
+          </ul>
+        <h3>Archives</h3>
+          <ul class="aside-list">
+            <li><a href="article.html#may">May 2017</a></li>
+            <li><a href="article.html#april">April 2017</a></li>
+            <li><a href="article.html#march">March 2017</a></li>
+          </ul>
+        <h3>Categories</h3>
+          <ul class="aside-list">
+            <li><a href="article.html#category1">Category 1</a></li>
+            <li><a href="article.html#category2">Category 2</a></li>
+            <li><a href="article.html#category3">Category 3</a></li>
+          </ul>
+      </aside>
+    </div>
+    <footer>
+      <a href="index.html">&copy;2017 luísa verza</a>
+    </footer>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="hamburguer.js"></script>
+    <script src="scroll.js"></script>
+</body>
+</html>
