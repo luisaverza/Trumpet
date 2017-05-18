@@ -1,31 +1,31 @@
 # Trumpet
 Frontend Basic Project
 
-HTML
-1.0 Article Page
-  1.1 Menu
-    1.1.1 Home
-    1.1.2 About
-    1.1.3 Archives
-    1.1.4 Categories
-  1.2 Article
-    1.2.1 Sections
-  1.3 Aside
-    1.3.1 Recent Posts
-    1.3.2 Archives
-    1.3.3 Categories
-  1.4 Footer
-  
-CSS
-1.0 - Common
-2.0 - Header
-3.0 - Main
-4.0 - Article
-4.1 - Article - About
-5.0 - Footer
-6.0 - Page About
-7.0 - Media Queries
-
-JS
-1.0 Hamburguer.js Menu - for min-widht: 768px
+HTML<br>
+1.0 Article Page<br>
+  1.1 Menu<br>
+    1.1.1 Home<br>
+    1.1.2 About<br>
+    1.1.3 Archives<br>
+    1.1.4 Categories<br>
+  1.2 Article<br>
+    1.2.1 Sections<br>
+  1.3 Aside<br>
+    1.3.1 Recent Posts<br>
+    1.3.2 Archives<br>
+    1.3.3 Categories<br>
+  1.4 Footer<br>
+  <br>
+CSS<br>
+1.0 - Common<br>
+2.0 - Header<br>
+3.0 - Main<br>
+4.0 - Article<br>
+4.1 - Article - About<br>
+5.0 - Footer<br>
+6.0 - Page About<br>
+7.0 - Media Queries<br>
+<br>
+JS<br>
+1.0 Hamburguer.js Menu - for min-widht: 768px<br>
 2.0 Scroll.js - Scroll screen to the article selected on aside
